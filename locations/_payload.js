@@ -1,1 +1,1 @@
-export default {data:{"options:asyncdata:/locations":null},prerenderedAt:1683397230563}
+export default (function(a,b){return {data:{"options:asyncdata:/locations":{locations:[{id:1,name:"Dog Paradise",city:"Milan",createdAt:a,updatedAt:a},{id:2,name:"Dog City",city:"Rome",createdAt:b,updatedAt:b}]}},prerenderedAt:1683398137694}}("2023-05-06T18:23:23.577Z","2023-05-06T18:23:23.593Z"))
