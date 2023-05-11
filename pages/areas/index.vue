@@ -7,8 +7,10 @@
         <!--
             Form used to filter the list by age.
         -->
-        
-        <h1>PEOPLE IN THE COMPANY</h1>
+        <div class = "form-container">
+            <label for = "age-filter">Age filter</label><input id = "age-filter" type = 'text' placeholder = "Age filter" v-model = "age">
+        </div>
+        <h1>Dogs</h1>
         <div id="card-container">
             <Card v-for = "dog of filtered" :title = "dog.name" :subtitle = "dog.breed" :link = "'/dogs/' + dog.id" />
         </div>
@@ -51,6 +53,7 @@
         flex-direction: row;
         justify-content: center;
         align-content: flex-start;
+        gap: 20px;
     }
 
     main
@@ -59,15 +62,21 @@
         flex-direction: column;
         justify-content: center;
         align-content: flex-start;
+        gap: 10px;
     }
 
     .form-container {
         width: 90%;
+        border-radius: 10px;
+        border: 2px solid brown;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-content: flex-start;
-    }
+        gap: 20px;
 
+        background-color: burlywood;
+        padding: 20px;
+    }
 
 </style>

@@ -8,7 +8,7 @@
             <img id = "main-img" src = "~/assets/img/home-image.jpg" />
             <div id = "data-container">
                 <p class = "data">Name: <span>{{ dog.name }}</span></p>
-                <p class = "data">Role: <span>{{ dog.breed }}</span></p>
+                <p class = "data">Breed: <span>{{ dog.breed }}</span></p>
                 <p class = "data">Age: <span>{{ dog.age }}</span></p>
             </div>
         </div>
@@ -54,8 +54,7 @@
 
     .data {
         font-weight: bolder;
-        font-size: 20pt;
-        color:blue
+        font-size: 20pt
     }
 
     .data span {
@@ -66,6 +65,5 @@
     #description {
         padding: 0 20px 0 20px;
         font-size: 15pt;
-        color: blue;
     }
 </style>

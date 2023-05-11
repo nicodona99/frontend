@@ -11,11 +11,11 @@
 <template>
     <div class="card">
         <div class="image-container">
-            <img class="img" src='~/assets/img/home-image.jpg' />
+            <img class="img" src='~/assets/img/robert.jpg' />
         </div>
         <span class="title">{{ title }}</span>
         <span class="subtitle">{{ subtitle }}</span>
-        <NuxtLink :to = "link" ><button>Open description</button></NuxtLink>
+        <NuxtLink :to = "link" >role in the firm</NuxtLink>
     </div>
 </template>
 
@@ -29,8 +29,8 @@
         display: flex;
         justify-content: center;
         padding: 2px;
-        width: 250px;
-        height: 250px;
+        width: 100px;
+        height: 100px;
     }
 
     .img
@@ -47,7 +47,8 @@
     {
         display: flex;
         flex-flow: column;
-        padding: 20px;
+        padding: 10px;
+        border: solid blue;
         width: fit-content;
         height: fit-content;
     }
@@ -56,5 +57,10 @@
     {
         font-size: 2em;
         font-weight: bold;
+        color: rgb(27, 103, 202);
+    }
+    .subtitle{
+        font-size: 1em;
+        color: rgb(14, 144, 161);
     }
 </style>
