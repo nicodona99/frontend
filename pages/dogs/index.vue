@@ -67,15 +67,11 @@
 
     .form-container {
         width: 90%;
-        border-radius: 10px;
-        border: 2px solid brown;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-content: flex-start;
         gap: 20px;
-
-        background-color: burlywood;
         padding: 20px;
     }
 
