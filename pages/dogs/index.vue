@@ -8,7 +8,7 @@
             Form used to filter the list by age.
         -->
         
-        <h1>PEOPLE IN THE COMPANY</h1>
+        <h1>OUR TEAM</h1>
         <div id="card-container">
             <Card v-for = "dog of filtered" :title = "dog.name" :subtitle = "dog.breed" :link = "'/dogs/' + dog.id" />
         </div>
