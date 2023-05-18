@@ -1,5 +1,5 @@
 <!--
-    Home page
+     Home page
 -->
 <template>
     <main>
