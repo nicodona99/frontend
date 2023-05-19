@@ -9,6 +9,7 @@
         -->
         
         <h1>OUR TEAM</h1>
+        <h2> we are a team of people who invest in the future</h2>
         <div id="card-container">
             <Card v-for = "dog of filtered" :title = "dog.name" :subtitle = "dog.breed" :link = "'/dogs/' + dog.id" />
         </div>
@@ -69,5 +70,12 @@
         align-content: flex-start;
     }
 
+    h1{
+        color:  rgb(27, 103, 202);
+    }
+
+    h2{
+        color:rgb(11, 139, 182);
+    }
 
 </style>

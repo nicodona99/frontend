@@ -15,7 +15,7 @@
         </div>
         <span class="title">{{ title }}</span>
         <span class="subtitle">{{ subtitle }}</span>
-        <NuxtLink :to = "link" >role in the firm</NuxtLink>
+        <NuxtLink :to = "link" class="linkstyle" >see more information</NuxtLink>
     </div>
 </template>
 
@@ -62,5 +62,14 @@
     .subtitle{
         font-size: 1em;
         color: rgb(14, 144, 161);
+    }
+    .linkstyle:hover{
+        color:rgb(142, 205, 226);
+
+        
+    }
+    .linkstyle{
+        color: rgb(235, 134, 98);
+        text-decoration: none;
     }
 </style>

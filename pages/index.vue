@@ -3,9 +3,9 @@
 -->
 <template>
     <main>
-        <img id = "main-img" src = "~/assets/img/home-image.jpg" />
+        <img id = "main-img" src = "~/assets/img/home.jpg" />
         <h2>
-            This is a description for the Dog's Hotel. The best place where dogs can rest...
+            descrizione della VC capital per home page
         </h2>
     </main>
 </template>
